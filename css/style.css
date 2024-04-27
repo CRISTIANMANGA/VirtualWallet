@@ -13,9 +13,50 @@
     color: white;
    font-size: 15px;
 }
+
+.icon2 {
+    margin-right: 10px;
+    width: 14px;
+    height: auto;
+}
+
+.HiArt {
+    color: white;
+}
+
 .Here {
     margin-right: 0px;
     color: white;
     width: 250px;
     height: auto;
 }
+.text {
+    display: flex;
+    align-items: center;
+}
+
+
+.Sav {
+    margin-right: 120px;
+    color: white;
+    width: 69px;
+    height: auto;
+}
+.ass {
+    margin-right: 0px;
+    color: white;
+    width: 60px;
+    height: auto;
+}
+.group1
+{
+    margin-right: 120px;
+    width: 70px;
+    height: auto;
+}
+.group2 {
+    margin-right: 0px;
+    width: 70px;
+    height: auto;
+}
+
