@@ -59,4 +59,34 @@
     width: 70px;
     height: auto;
 }
+.rec1 {
+    margin-right: 70px;
+    width: 120px;
+    height: auto;
+   
+}
+.rec2 {
+    margin-right: 40px;
+    width: 100px;
+    height: auto;
+    margin-left: -190px;
+
+}
+.rec3 {
+    margin-right: 0px;
+    width: 120px;
+    height: auto;
+   
+   
+}
+
+.rec4 {
+    margin-right: 0px;
+    width: 40px;
+    height: auto;
+    margin-left: -120px;
+ 
+  
+   }
+
 

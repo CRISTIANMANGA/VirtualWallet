@@ -5,45 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>VirtualWallet</title>
-<style>
-body {
-    background-color: #33404F;
-    background-image: url('storage/img/font.svg');
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center center; 
-}
-  
-</style>
+    <style>
+        body {
+            background-color: #33404F;
+            background-image: url('storage/img/font.svg');
+            background-repeat: no-repeat;
+            background-size: cover; 
+            background-position: center center; 
+            margin: 0; 
+            padding: 0; 
+        }
+        .container {
+            position: relative;
+            z-index: 1; 
+        }
+        .bottom-background {
+            position: absolute;
+            bottom: -10px; 
+            left: -10px;
+            width: 400px; 
+            height: 400px; 
+            background-image: url('storage/img/background.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: 0; 
+        }
+        .iconn {
+            position: relative; /* Cambio a relative para que el icono se muestre sobre el fondo */
+            z-index: 2; /* Asegura que el icono esté encima del fondo */
+        }
+    </style>
 </head>
 <body>
+    <div class="bottom-background"></div> 
     <div class="container">
         <img src="storage/img/Group.svg" alt="icon" class="icon">
         <h2 class="NameIcon">INVETO</h2>
         <img src="storage/img/Groupss.svg" alt="ico2" class="icon2">
     </div>
-        <h1 class="HiArt">Hi, Arthur!</h1>
-        <img src="storage/img/here.svg" alt="here" class="Here">
+    <h1 class="HiArt">Hi, Arthur!</h1>
+    <img src="storage/img/here.svg" alt="here" class="Here">
 
     <div class="text">
         <h2>                               
-                                                   
-        <img src="storage/img/SAVINGS.svg" alt="SAVINGS" class="Sav">  
-        <img src="storage/img/ASSETS.svg" alt="ass" class="ass">
+            <img src="storage/img/SAVINGS.svg" alt="SAVINGS" class="Sav">  
+            <img src="storage/img/ASSETS.svg" alt="ass" class="ass">
         
-         <div>
-              <img src="storage/img/Group 1.svg" alt="group1" class="group1">
-              <img src="storage/img/Group 2.svg" alt="goup2" class="group2">
-              
-         </div>
-         <img src="storage/img/Rectangle 1.svg" alt="rec1" class="">
+            <div>
+                <img src="storage/img/Group 1.svg" alt="group1" class="group1">
+                <img src="storage/img/Group 2.svg" alt="goup2" class="group2">
+            </div>
        
-
-        
+            <img src="storage/img/Rectangle 1.svg" alt="rec1" class="rec1"><img src="storage/img/Rectangle 1.1.svg" alt="rec2" class="rec2">
+            <img src="storage/img/Rectangle 2.svg" alt="rec3" class="rec3"><img src="storage/img/Rectangle 2.1.svg" alt="rec4" class="rec4">
     </div>
-        
-     
-       
-    
+    <div>
+        <img src="storage/img/iconn.svg" alt="" class="iconn">
+    </div>
 </body>
 </html>
