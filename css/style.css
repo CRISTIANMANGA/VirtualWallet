@@ -204,3 +204,13 @@ CSS
     margin-left: 120px;
 
 }
+.page-slo {
+    position: relative;
+}
+
+.page {
+    position: absolute;
+    bottom: -400px;
+    right: 10px;
+    width: 350px;
+}
