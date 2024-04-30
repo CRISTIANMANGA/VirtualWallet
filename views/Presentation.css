@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.icon3 {
+    margin-right: 20px; 
+    width: 20px; 
+    height: auto;
+    
+}
+.NameIcon2 {
+    margin-right: 250px;
+    color: black;
+    font-size: 15px;
+}
+
+.iconfour {
+    margin-right: 10px;
+    width: 14px;
+    height: auto;
+}
+
+
+.page-slo {
+    position: relative;
+}
+
+.page {
+    margin-left: -8px;
+    margin-top: 520px;
+    position: fixed;
+    width: 390px;
+    
+}
+.perfilwhite{
+    margin-left: 340px;
+    margin-top: 540px;
+    position: fixed;
+    width: 40px;
+}
+.eclip {
+    width: 10px;
+    margin-top: 585px;
+    position: fixed;
+    margin-left: 205px;
+
+}
+
+.camp {
+    margin-left: 270px;
+    margin-top: 540px;
+    position: fixed;
+    width: 40px;
+
+}
+.cubik {
+    margin-left: 190px;
+    margin-top: 540px;
+    position: fixed;
+    width: 40px;
+
+}
+.book {
+    margin-left: 100px;
+    margin-top: 540px;
+    position: fixed;
+    width: 40px;
+
+}
+.house {
+    margin-left: 20px;
+    margin-top: 540px;
+    position: fixed;
+    width: 40px;
+
+}
+    
+
+
+
