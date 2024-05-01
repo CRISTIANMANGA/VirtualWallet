@@ -1,3 +1,39 @@
 .What {
     position: relative;
 }
+.more-info {
+    margin-top: 30px;
+}
+.more-info h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.more-info p {
+    color: #666;
+}
+.more-info {
+    margin-top: 30px;
+}
+.more-info h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.more-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+.more-info ul li {
+    color: #666;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+.more-info ul li::before {
+    content: "\2022";
+    color: #007bff;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}

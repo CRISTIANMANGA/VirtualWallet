@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="ETF.css">
     <title>What is an ETF</title>
     <style>
+        /* Estilos adicionales aquí */
         body {
             background-color: #f5f5f5;
             font-family: Arial, sans-serif;
@@ -14,20 +15,26 @@
         }
         .container {
             max-width: 800px;
-            margin: 0 auto;
+            margin: 20px auto;
             padding: 20px;
             background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease; /* Agrega transición suave al contenedor */
+        }
+        .container:hover {
+            transform: translateY(-5px); /* Agrega efecto de levantamiento al pasar el mouse */
         }
         h1 {
             color: #333;
             text-align: center;
             margin-bottom: 20px;
+            font-size: 32px;
         }
         p {
             color: #666;
             line-height: 1.6;
+            margin-bottom: 15px;
         }
         .more-info {
             margin-top: 30px;
@@ -35,15 +42,40 @@
         .more-info h2 {
             color: #333;
             font-size: 24px;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
-        .more-info p {
+        .more-info ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .more-info ul li {
             color: #666;
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        .more-info ul li::before {
+            content: "\2022";
+            color: #007bff;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        .more-info ul li:hover {
+            color: #333; /* Cambia el color del texto al pasar el mouse */
+            cursor: pointer; /* Cambia el cursor a un puntero */
         }
     </style>
 </head>
 <body>
     <div class="container">
+<ul>
+    <li> 
+        <p>Return through <a href="Presentatio.html">this 
+            link </a></p >
+
+    </li>
+</ul>
         <h1 class="What">What is an ETF</h1>
         <p>An ETF, or Exchange-Traded Fund, is a type of financial instrument that combines the characteristics of an individual stock and an investment fund. It works similarly to an investment fund in that it pools financial assets, such as stocks, bonds, commodities or other instruments, and allows investors to buy a stake in that pool of assets.</p>
         <p>However, unlike traditional mutual funds, ETFs are traded on stock exchanges, giving them liquidity and the ability to be bought and sold during market trading hours. This means that investors can buy or sell shares of an ETF at any time during the trading day, just as they would with an individual stock.</p>
@@ -64,6 +96,7 @@
                 <li>Tax efficiency (for some ETFs)</li>
                 <li>Trading risks</li>
             </ul>
+            <p class="note">Hover over each point for more information</p>
         </div>
     </div>
 </body>
