@@ -1,3 +1,5 @@
+@import url(css/style.css);
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -75,6 +77,36 @@
 
 }
     
+.invets {
+    margin-right: 250px;
+    color: black;
+    font-size: 20px;
 
+}
 
+.nav_invest {
+    margin-block: center;
+}
+.invetsing {
+    margin-left: -20px;
+    width: 400px;
+}
 
+.eclip {
+    margin-top: -270px;
+    margin-left: -30px;
+    position: relative;
+    width: 150px;
+}
+.name {
+    margin-top: -120px;
+    margin-left: 180px;
+    margin-right: 250px;
+    color: gray ;
+    font-size: 8px;
+}
+.read {
+    margin-left: 200px;
+    margin-top: 10px;
+    width: 90px;
+}
