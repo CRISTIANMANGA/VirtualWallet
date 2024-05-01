@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Presentation.css">
     <title>Document</title>
+    <style> 
+    .card-container {
+        overflow-x: auto; /* Agrega una barra de desplazamiento horizontal */
+        white-space: nowrap; /* Evita que las tarjetas se desplacen a una nueva línea */
+        margin-bottom: 20px; /* Agrega espacio inferior para separar de otros elementos */
+    }
+
+    .card {
+        display: inline-block; /* Permite que las tarjetas estén una al lado de la otra */
+        margin-right: 20px; /* Espacio entre las tarjetas */
+        min-width: 300px; /* Ancho mínimo para cada tarjeta */
+        border: 1px solid #ccc; /* Borde para resaltar las tarjetas */
+        border-radius: 5px; /* Bordes redondeados */
+    }</style>
 
 </head>
 <body>
@@ -19,11 +33,23 @@
     
         <h1 class="name">by: Cristian Manga</h1>
         <a href="ETF.html"><img src="storage/img/read.svg" alt="read" class="read"></a>
+        
 
     </div>
     <h1 class="card">My cards (4)</h1>
-    <div>card</div>
-
+    <div class="container">
+        <!-- Otros elementos dentro del contenedor -->
+        <div class="card-container">
+            <!-- Contenedor para las tarjetas de crédito -->
+            <div class="card">
+                <a href="Avevillas.html"><img src="storage/img/AvVillas.png" alt="Avv" class="Avv"></a>
+            </div>
+            <div class="card">
+                <a href="Mastercard.html"><img src="storage/img/Matercard.png" alt="Mast" class="Mast"></a>
+            </div>
+            <!-- Agrega más tarjetas aquí si es necesario -->
+        </div>
+    </div>
 
 
 </body>
