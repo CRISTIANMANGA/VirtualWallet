@@ -117,13 +117,20 @@ CSS
 
 
 }
+
+
+
 .Acti {
     width: 100px;
     margin-left: 15px;
     margin-bottom: -15px
 
 }
-
+.scroll-container-horizontal {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 20px; 
+}
 .icono {
 
 
@@ -148,6 +155,21 @@ CSS
     height: auto;
     margin-top: -20px;
 }
+.money {
+    max-height: 100px; 
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap; 
+    align-content: flex-start; 
+    margin-top: 0px;
+}
+.Transicions {
+    margin-left: 20px;
+    width: 400px;
+    margin-right: -60px;
+    margin-top: -20px;
+}
+
 
 .icongreen {
     margin-left: 20px;
