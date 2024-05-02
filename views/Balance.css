@@ -2,7 +2,7 @@
 
 .SecondFont {
     width: 430px;
-    margin-top: -80px;
+    margin-top: -130px;
     margin-left: -10px;
     position: static;
 
@@ -65,17 +65,17 @@
 
 }
 .Eclipsegreen {
-    margin-top: 70px;
+    margin-top: -20px;
     margin-left: -90px;
     width: 200px;
 }
 .Moneya{
-    margin-top: -0px;
+    margin-top: -200px;
     margin-left: -200px;
     width: 70px;
 }
 .Moneyca {
-    margin-top: -144px;
+    margin-top: -164px;
     margin-left: 140px;
     margin-right: 250px;
     color: white;
@@ -83,9 +83,72 @@
 
 }
 .iconsel{
-    margin-top: 2px;
+    margin-top: 20px;
     margin-left: 40px;
     width: 300px;
     position: fixed;
 }
 
+.nuone {
+width: 40px;
+margin-top: 60px;
+position: fixed;
+margin-left: 160px;
+}
+.nutwo {
+    width: 40px;
+    margin-top: 58px;
+    position: fixed;
+    margin-left: 243px;
+}
+.eclipblack {
+    width: 10px;
+    margin-top: 80px;
+    margin-left: 180px;
+    position: fixed;
+}
+.eclipgreen {
+    width: 10px;
+    margin-top: 75px;
+    margin-left: 265px;
+    position: fixed;
+}
+.Vectorgreen {
+    width: 230px;
+    margin-left: 60px;
+    margin-top: 80px;
+    position: fixed;
+}
+
+.Vectorblack {
+    width: 230px;
+    margin-left: 60px;
+    margin-top: 85px;
+    position: fixed;
+    
+    
+}
+
+.numerstop {
+    width: 290px;
+    margin-left: 30px;
+    margin-top: 140px;
+    position: fixed;
+
+}
+
+.notice {
+    width: 280px;
+    margin-left: 50px;
+    margin-top: 173px;
+    position: fixed;
+}
+.slowaca {
+    position: relative;
+}
+.slowen {
+    margin-left: -8px;
+    margin-top: 285px;
+    position: fixed;
+    width: 390px;
+}
