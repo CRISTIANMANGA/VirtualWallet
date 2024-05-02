@@ -148,7 +148,52 @@ margin-left: 160px;
 }
 .slowen {
     margin-left: -8px;
-    margin-top: 285px;
+    margin-top: 310px;
     position: fixed;
     width: 390px;
+}
+
+.cubikselect {
+    margin-left: 180px;
+    margin-top: 330px;
+    position: fixed;
+    width: 40px;
+
+}
+.perfilwhit {
+    margin-left: 310px;
+    margin-top: 330px;
+    position: fixed;
+    width: 40px;
+}
+.prub {
+    margin-left: -50px;
+    margin-top: 150px;
+    width: 50px;
+    position: absolute;
+}
+.housenew {
+    margin-left: -10px;
+    margin-top: 330px;
+    position: fixed;
+    width: 40px;
+}
+.bookes {
+    margin-left: 65px;
+    margin-top: 320px;
+    position: fixed;
+    width: 30px;
+}
+.campan {
+    margin-left: 235px;
+    margin-top: 330px;
+    position: fixed;
+    width: 40px;
+
+}
+.eclipse {
+    margin-left: 80px;
+    margin-top: 357px;
+    position: absolute;
+    width: 10px; 
 }
