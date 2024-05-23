@@ -1,1 +1,0 @@
-Good evening dear teacher, I have already finished my Virtual Wallet project, I hope you like it. In this project I fully complied with figma's requirements. I also added a new credit card design. I added some changes, like what is ETF. thank you so much
